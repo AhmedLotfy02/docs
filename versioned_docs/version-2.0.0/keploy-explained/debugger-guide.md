@@ -36,7 +36,7 @@ Navigate to `launch.json` to begin crafting JSON objects.
       "program": "main.go",
       "args": ["record", "-c", "<path_to_executable>"],
       "env": {
-        "PATH": "${env:PATH}"
+        "PATH": "${env:PATH}" 
       }
     },
     {
